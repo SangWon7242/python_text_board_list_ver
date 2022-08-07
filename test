@@ -1,5 +1,6 @@
-a = [1, 2, 3, 4]
+a = []
 
-a[0] = 5
-
-print(a[0])
+if not a:
+    print("없습니다.")
+else:
+    print("있습니다.")
